@@ -4,9 +4,9 @@ A Leiningen template for CasperJS projects using Ghost (ClojureScript CasperJS w
 
 ## Usage
 
-    ```bash
+```bash
     lein new casper-cljs myproject
-    ```
+```
 
 ## License
 
