@@ -1,7 +1,7 @@
 (ns leiningen.new.casper-cljs
   (:use [leiningen.new.templates :only [renderer name-to-path ->files]]))
 
-(def render (renderer "clasp"))
+(def render (renderer "casper-cljs"))
 
 (defn casper-cljs
   "Renders a new project for using CasperJS from ClojureScript"
