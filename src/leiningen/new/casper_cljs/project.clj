@@ -8,9 +8,7 @@
                         :compiler {:output-to "out/{{sanitized}}.js"
                                    :optimizations :simple, :pretty-print true}}]}
   :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :eval-in-leiningen true
-  :main ^{:skip-aot true} {{name}}.app)
+            :url "http://www.eclipse.org/legal/epl-v10.html"})
 
 
 
