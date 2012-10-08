@@ -1,6 +1,6 @@
 # casper-cljs
 
-A Leiningen template for CasperJS projects using Ghost (ClojureScript CasperJS wrapper).
+A Leiningen template for [CasperJS][1] projects using [Ghost][2] (ClojureScript CasperJS wrapper).
 
 ## Usage
 
@@ -8,6 +8,8 @@ A Leiningen template for CasperJS projects using Ghost (ClojureScript CasperJS w
     lein new casper-cljs myproject
 ```
 
+[1]: http://casperjs.org
+[2]: https://github.com/pandeiro/ghost
 ## License
 
 Copyright © 2012 Murphy McMahon
