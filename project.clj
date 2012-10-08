@@ -1,4 +1,4 @@
-(defproject casper-cljs/lein-template "0.1.0"
+(defproject casper-cljs/lein-template "0.1.1"
   :description "Basic CasperJS project template"
   :url "https://github.com/pandeiro/casper-cljs"
   :license {:name "Eclipse Public License"
