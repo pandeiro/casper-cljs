@@ -8,6 +8,7 @@
   :cljsbuild {:builds [{:source-paths ["src-cljs"]
                         :compiler {:output-to "out/{{sanitized}}.js"
                                    :optimizations :simple, :pretty-print true}}]}
+             :compiler {:output-to "target/{{sanitized}}.js"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"})
 
