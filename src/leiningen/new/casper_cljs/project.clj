@@ -9,6 +9,7 @@
                         :compiler {:output-to "out/{{sanitized}}.js"
                                    :optimizations :simple, :pretty-print true}}]}
              :compiler {:output-to "target/{{sanitized}}.js"
+                        :optimizations :whitespace, :pretty-print true}}]}
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"})
 
