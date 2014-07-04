@@ -11,8 +11,6 @@ lein new casper-cljs myproject
 [1]: http://casperjs.org
 [2]: https://github.com/pandeiro/ghost
 
-## License
+## Public Domain
 
-Copyright © 2012 Murphy McMahon
-
-Distributed under the Eclipse Public License, the same as Clojure.
+Released unencumbered into the public domain
