@@ -5,7 +5,7 @@
                  [org.clojure/clojurescript "0.0-2261"]
                  [ghost "0.1.0-alpha1"]]
   :plugins [[lein-cljsbuild "1.0.3"]]
-  :cljsbuild {:builds [{:source-path "src-cljs"
+  :cljsbuild {:builds [{:source-paths ["src-cljs"]
                         :compiler {:output-to "out/{{sanitized}}.js"
                                    :optimizations :simple, :pretty-print true}}]}
   :license {:name "Eclipse Public License"
